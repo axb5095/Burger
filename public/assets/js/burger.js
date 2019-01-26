@@ -26,8 +26,7 @@ $(function() {
     event.preventDefault();
 
     var newburger = {
-      name: $("#ca").val().trim(),
-      eaten: $("[name=eateny]:checked").val().trim()
+      name: $("#ca").val().trim()
     };
 
     // Send the POST request.
